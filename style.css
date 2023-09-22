@@ -1,0 +1,441 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family : "Segoe UI", sans-serif;
+}
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/episnb.jpg");
+}
+
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    background: rgba(70, 70, 70, 0.75);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    font-size: 20px;
+}
+
+.grasBlanc{
+    color: white;
+    font-weight: bolder;
+}
+
+.grasBleu{
+    color: #007bff;
+    font-weight: bolder;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlink{
+    margin-right: 30px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 5px;
+}
+
+.navlink:hover{
+    color: #007bff;
+    border: 3px solid #007bff;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 5px;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgba(120, 120, 120, 0.5);
+}
+
+.servicesbg{
+    width: 100vw;
+    background-color: #007bff;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titre{
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-top: 70px;
+    margin-left: 110px;
+}
+
+.titre>span{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+.blanc{
+    color: white;
+}
+
+.tiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.tile{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.maj{
+    text-transform: uppercase;
+}
+
+.cap{
+    text-transform: capitalize;
+}
+
+.noir{
+    color: black;
+}
+
+.portfolio{
+    margin-left: 110px;
+    margin-bottom: 0;
+}
+
+#portfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorie{
+    padding-top: 90px;
+    display: flex;
+    font-size: 16px;
+    margin-right: 110px;
+}
+
+.type{
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.type:hover{
+    color: #007bff;
+    border: 3px solid #007bff;
+}
+
+.presentoire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 300px 50px 300px;
+}
+
+.adjust1{
+    margin-bottom: 20px;
+}
+
+.adjust2{
+    margin-top: 20px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+.image:hover{
+    transform: scale(1.5);
+}
+
+.img1{
+    background-image: url("images/paysage1.webp");
+}
+
+.img2{
+    background-image: url("images/paysage2.jpg");
+}
+
+.img3{
+    background-image: url("images/paysage3.jpg");
+}
+
+.img4{
+    background-image: url("images/paysage4.jpg");
+}
+
+.img5{
+    background-image: url("images/paysage5.jpg");
+}
+
+.img6{
+    background-image: url("images/paysage6.jpg");
+}
+
+.img7{
+    background-image: url("images/paysage7.png  ");
+}
+
+.img8{
+    background-image: url("images/paysage8.jpg");
+}
+
+.featuresbg{
+    background-color: rgba(81, 95, 103);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.video{
+    margin: 100px;
+}
+
+.lorem{
+    margin-left: 110px;
+    margin-top: 35px;
+    font-weight: lighter;
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    text-transform: uppercase;
+    margin-left: 110px;
+    margin-top: 25px;
+    background-color: rgb(38, 38, 38);
+    border: 4px solid rgb(38, 38, 38);
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: .4s;
+}
+
+button:hover{
+    background-color: rgba(81, 95, 103);
+    color: white;
+    border: 4px solid rgb(38, 38, 38);
+}
+
+.twitterbg{
+    background-color: rgba(29, 161, 242);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twilogo{
+    height: 50px;
+    width: 50px;
+    margin-top: 70px;
+    margin-right: 110px;
+}
+
+.twitter{
+    margin-left: 110px;
+}
+
+.twilorem{
+    width: 50vw;
+    margin-top: 35px;
+    margin-left: 110px;
+}
+
+.twip1{
+    margin-bottom: 1px;
+}
+
+.twip2{
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 60px;
+}
+
+.johnbg {
+    background-color: rgb(89, 154, 194);
+    margin-top: 0;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+.john{
+    margin-top: 0;
+}
+
+#john{
+    display: flex;
+}
+
+.john2{
+    width: auto;
+    border: none;
+}
+
+.presentoire2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.johnleft{
+    margin-right: 25px;
+}
+
+.johnright{
+    margin-left: 25px;
+}
+
+.rs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 200%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.fa-brands{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+}
+
+.fa-brands:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.testimobg{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testilorem{
+    margin: 60px 60px 60px 110px;
+}
+
+.auteur{
+    color: #007bff;
+    font-weight: bolder;
+}
+
+.quoteicon{
+    height: 30px;
+    width: 30px;
+    margin-top: 70px;
+    margin-right: 110px;
+}
+
+.contactbg{
+    background-color: rgb(89, 154, 194);
+    margin-top: 0;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+.holder{
+    background: none;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 600px;
+    height: 20px;
+}
+
+.contactz1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contactlorem{
+    margin-top: 0;
+}
+
+.namemail{
+    margin-left: 110px;
+    padding-right: 25px;
+}
+
+.infocontact{
+    margin-right: 110px;
+    padding-left: 25px;
+}
+
+.msg{
+    margin-left: 110px;
+}
+
+.message{
+    width: 1280px;
+    height: 150px;
+    resize: none;
+}
+
+.footerbg{
+    background: #65717D;
+}
+
+.footerbar{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+
+.footerlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-left: 110px;
+}
